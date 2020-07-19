@@ -104,6 +104,11 @@ body {
 #collection, #recommend, #guarantee {
   padding-top: 70px;
 }
+@media screen and (max-width: 750px) {
+  .nav-list {
+    font-size: 13px;
+  }
+}
 
 /* collection */
 .top {
@@ -125,6 +130,11 @@ body {
   padding: 50px;
   background-color: #EFEAEB;
   border-radius: 5px;
+}
+@media screen and (max-width: 750px) {
+  .container {
+    width: 75%;
+  }
 }
 .section-title {
   text-align: center;
@@ -179,8 +189,8 @@ body {
   .human-img1 {
     position: absolute;
     top: -8%;
-    right: -2%;
-    width: 100px;
+    right: 0%;
+    width: 90px;
     transform: rotate(-5deg);
   }
     .section-title h1 {
@@ -386,6 +396,9 @@ body {
   .point3-left img {
     width: 150px;
   }
+    #curve3 span ,#curve4 span {
+    margin: 0 2px; 
+  }
 }
 
 /* guarantee */
@@ -435,6 +448,16 @@ body {
   margin-top: -15px;
   border: 15px solid transparent;
   border-right: 15px solid #DCD5C8;
+}
+
+@media screen and (max-width: 750px) {
+  .guarantee-img img{
+    width: 140px;
+    transform: scale(-1,1);
+  }
+  .guarantee-voice {
+    margin-left: 15px;
+  }
 }
 
 footer {
