@@ -324,6 +324,16 @@ body {
     margin-left: -5%;
   }
 }
+@media screen and (max-width: 650px) {
+  .voice-title {
+    position: absolute;
+    top: -12%;
+    left: 30%;
+  }
+    .point-title h2 {
+    font-size: 30px;
+  }
+}
 
 /* point2 */
 .point2-flex {
@@ -338,6 +348,13 @@ body {
 .point2-left {
   padding: 40px;
 }
+@media screen and (max-width: 650px) {
+  .point-img2 {
+    width: 80%;
+    height: 300px;
+  }
+}
+
 /* point3 */
 .point3-flex {
   flex-direction : row-reverse;
@@ -365,6 +382,9 @@ body {
 @media screen and (max-width: 640px) {
   #curve3, #curve4 {
     font-size: 12px;
+  }
+  .point3-left img {
+    width: 150px;
   }
 }
 
