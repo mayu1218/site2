@@ -59,6 +59,14 @@ body {
   margin: 0 auto;
   padding: 0;
 }
+.slider li {
+  width: 100%;
+}
+@media screen and (max-width: 750px) {
+  .slider img {
+    height: auto;
+  }
+}
 
 /* nav */
 .header-nav {
@@ -174,6 +182,9 @@ body {
     right: -2%;
     width: 100px;
     transform: rotate(-5deg);
+  }
+    .section-title h1 {
+    font-size: 35px;
   }
 }
 @media screen and (max-width: 640px) {
