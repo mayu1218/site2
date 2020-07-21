@@ -472,6 +472,12 @@ body {
     margin-left: 15px;
   }
 }
+@media screen and (max-width: 650px) {
+  .speech {
+    padding: 5px 10px;
+    margin-left: 50px;
+  }
+}
 
 footer {
   background: #a29f99;
