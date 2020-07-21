@@ -202,11 +202,10 @@ body {
 }
 @media screen and (max-width: 640px) {
   .human-img1 {
-    position: absolute;
-    top: -6%;
-    right: -5%;
-    width: 70px;
-    transform: rotate(-5deg);
+    display: none;
+  }
+  .container {
+    padding: 5% 1%;
   }
 }
 
@@ -341,10 +340,21 @@ body {
   .voice-title {
     position: absolute;
     top: -12%;
-    left: 30%;
+    left: 25%;
   }
     .point-title h2 {
     font-size: 30px;
+  }
+    .balloon {
+    width: 60px;
+    height: 60px;
+  }
+  .num {
+    font-size: 25px;
+  }
+  .balloon a {
+    line-height: 60px;
+    font-size: 17px;
   }
 }
 
