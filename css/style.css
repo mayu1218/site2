@@ -108,6 +108,9 @@ body {
   .nav-list {
     font-size: 13px;
   }
+    .header-nav li {
+    width: 80px;
+  }
 }
 
 /* collection */
