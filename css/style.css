@@ -419,6 +419,9 @@ body {
   text-align: center;
   width: 100%;
 }
+.guarantee-body h2 br {
+  display: none;
+}
 .guarantee-text {
   width: 70%;
   margin: 0 auto;
@@ -476,6 +479,18 @@ body {
   .speech {
     padding: 5px 10px;
     margin-left: 50px;
+  }
+    .guarantee-body h2 {
+    font-size: 20px;
+  }
+  .big {
+    font-size: 25px;
+  }
+  .guarantee-body h2 br {
+    display: block;
+  }
+  .speech p {
+    font-size: 14px;
   }
 }
 
