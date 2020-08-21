@@ -16,7 +16,7 @@ body {
   top: 0px;
   left: 0px;
   background: #DCD5C8;
-  z-index: 1;
+  z-index: 3;
 }
 .loading-text {
   font-size: 30px;
