@@ -134,6 +134,9 @@ body {
   background-color: #EFEAEB;
   border-radius: 5px;
 }
+.collection-body br {
+  display: none;
+}
 @media screen and (max-width: 750px) {
   .container {
     width: 75%;
@@ -206,6 +209,16 @@ body {
   }
   .container {
     padding: 5% 1%;
+  }
+  .collection-body br {
+    display: block;
+  }
+  .container {
+    width: 90%;
+    margin: 80px auto;
+    padding: 50px 0;
+    background-color: #EFEAEB;
+    border-radius: 5px;
   }
 }
 
