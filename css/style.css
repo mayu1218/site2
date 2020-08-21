@@ -357,6 +357,7 @@ body {
   }
     .point-title h2 {
     font-size: 30px;
+    margin: 0;
   }
     .balloon {
     width: 60px;
