@@ -295,6 +295,9 @@ body {
 .point-title {
   text-align: center;
 }
+.point-title h2 {
+  display: inline-block;
+}
 .point-flex {
   display: flex;
 }
