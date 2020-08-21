@@ -220,6 +220,9 @@ body {
     background-color: #EFEAEB;
     border-radius: 5px;
   }
+  .sm-none {
+    display: none;
+  }
 }
 
 /* point */
