@@ -376,7 +376,7 @@ body {
 }
 @media screen and (max-width: 1300px) {
   .point-text {
-    font-size: 20px;
+    font-size: 18px;
     width: 70%;
   }
 }
@@ -401,16 +401,16 @@ body {
   .point-img1 {
     margin-left: -5%;
   }
+  .point-title h2 {
+    font-size: 25px;
+    margin: 0;
+  }
 }
 @media screen and (max-width: 650px) {
   .voice-title {
     position: absolute;
     top: -12%;
     left: 25%;
-  }
-  .point-title h2 {
-    font-size: 25px;
-    margin: 0;
   }
   .balloon {
     width: 60px;
