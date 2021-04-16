@@ -16,7 +16,7 @@ body {
   top: 0px;
   left: 0px;
   background: #DCD5C8;
-  z-index: 3;
+  z-index: 5;
 }
 .loading-text {
   font-size: 30px;
@@ -49,24 +49,38 @@ body {
 }
 .slider img {
   width: 100%;
-  height: 600px;
+  height: 900px;
   object-fit: cover;
   margin: 0 auto;
   position: relative;
+}
+.slider li {
+  width: 100%;
 }
 .slider {
   width: auto;
   margin: 0 auto;
   padding: 0;
 }
-.slider li {
-  width: 100%;
-}
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1500px) {
   .slider img {
+    width: 100%;
     height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+    position: relative;
   }
 }
+@media screen and (max-width: 600px) {
+  .slider img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+
 
 /* nav */
 .header-nav {
@@ -108,7 +122,7 @@ body {
   .nav-list {
     font-size: 13px;
   }
-    .header-nav li {
+  .header-nav li {
     width: 80px;
   }
 }
@@ -123,8 +137,8 @@ body {
 .human-img1 {
   position: absolute;
   top: -8%;
-  right: 8%;
-  width: 100px;
+  right: 5%;
+  width: 150px;
   transform: rotate(-5deg);
 }
 .container {
@@ -137,11 +151,7 @@ body {
 .collection-body br {
   display: none;
 }
-@media screen and (max-width: 750px) {
-  .container {
-    width: 75%;
-  }
-}
+
 .section-title {
   text-align: center;
   margin-bottom: 50px;
@@ -182,13 +192,27 @@ body {
   border-radius: 50%;
   border: 3px dashed #DCD5C8;
   padding: 15px;
-  margin: 0;
+  margin: 0 auto;
 }
 .collection-name {
-  margin-top: 10px;
+  margin: 20px 0 80px 0;
   display: inline-block;
 }
+
+@media screen and (max-width: 1300px){
+  .human-img1 {
+    position: absolute;
+    top: -8%;
+    right: 0%;
+    width: 100px;
+    transform: rotate(-5deg);
+  }
+}
+
 @media screen and (max-width: 750px){
+  .container {
+    width: 75%;
+  }
   .collection-body .collection-list {
     width: 40%;
   }
@@ -199,8 +223,11 @@ body {
     width: 90px;
     transform: rotate(-5deg);
   }
-    .section-title h1 {
+  .section-title h1 {
     font-size: 35px;
+  }
+  .collection-name {
+    margin: 20px 0 50px 0;
   }
 }
 @media screen and (max-width: 640px) {
@@ -220,10 +247,9 @@ body {
     background-color: #EFEAEB;
     border-radius: 5px;
   }
-  .sm-none {
-    display: none;
-  }
 }
+
+
 
 /* point */
 .inner{
@@ -275,7 +301,7 @@ body {
   font-weight: bold;
 }
 .point-body h2 {
-  font-size: 40px;
+  font-size: 60px;
   display: inline-block;
   margin-left: 15px;
   color: #1EA9EA;
@@ -308,7 +334,7 @@ body {
   width: 48%;
 }
 .point-left img {
-  width: 80%;
+  width: 60%;
   object-fit: cover;
   margin-bottom: 30px;
   margin-top: -50px;
@@ -318,16 +344,22 @@ body {
 }
 .point-right {
   align-self: center;
-  text-align: left;
+  text-align: center;
 }
 .point-text {
   margin-bottom: 50px;
+  font-size: 25px;
+  width: 70%;
+  margin: 0 auto;
 }
 .voice {
   border: 1px solid gray;
   padding: 15px;
   position: relative;
   border-radius: 5px;
+  width: 70%;
+  margin: 50px auto 0 auto;
+  text-align: center;
 }
 .voice-title {
   position: absolute;
@@ -342,6 +374,21 @@ body {
 .voice p {
   font-size: 14px;
 }
+@media screen and (max-width: 1300px) {
+  .point-text {
+    font-size: 20px;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .point-left img {
+    width: 70%;
+    object-fit: cover;
+    margin-bottom: 30px;
+    margin-top: -50px;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .point-flex {
     display: block;
@@ -361,20 +408,23 @@ body {
     top: -12%;
     left: 25%;
   }
-    .point-title h2 {
-    font-size: 27px;
+  .point-title h2 {
+    font-size: 25px;
     margin: 0;
   }
-    .balloon {
+  .balloon {
     width: 60px;
     height: 60px;
   }
   .num {
-    font-size: 25px;
+    font-size: 27px;
   }
   .balloon a {
     line-height: 60px;
     font-size: 17px;
+  }
+  .sm-none {
+    display: none;
   }
 }
 
@@ -384,19 +434,35 @@ body {
 }
 .point-img2 {
   width: 60%;
-  height: 330px;
+  height: 600px;
   object-fit: cover;
   border-radius: 10px;
 }
 .point2-left {
   padding: 40px;
 }
+
+@media screen and (max-width: 1400px) {
+  .point-img2 {
+    width: 80%;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .point-body h2 {
+    font-size: 40px;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .point-img2 {
     width: 80%;
     height: 300px;
   }
 }
+
+
 
 /* point3 */
 .point3-flex {
@@ -422,14 +488,14 @@ body {
 #curve4 {
   margin-top: -10px;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 650px) {
   #curve3, #curve4 {
     font-size: 12px;
   }
   .point3-left img {
     width: 150px;
   }
-    #curve3 span ,#curve4 span {
+  #curve3 span ,#curve4 span {
     margin: 0; 
   }
 }
@@ -443,8 +509,9 @@ body {
   display: none;
 }
 .guarantee-text {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
+  font-size: 20px;
 }
 .guarantee-flex {
   display: flex;
@@ -468,12 +535,13 @@ body {
   display: inline-block;
   margin: 1.5em 0 1.5em 15px;
   padding: 7px 10px 7px 30px;
-  width: 60%;
+  width: 50%;
   font-size: 16px;
   color: #F05657;
   font-weight: bold;
   background: #DCD5C8;
   border-radius: 10px;
+  text-align: center;
 }
 
 .speech:before {
@@ -494,13 +562,21 @@ body {
   .guarantee-voice {
     margin-left: 15px;
   }
+  .guarantee-text {
+    width: 70%;
+    font-size: 18px;
+  }
+  .speech {
+    width: 60%;
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 650px) {
   .speech {
     padding: 5px 10px;
     margin-left: 50px;
   }
-    .guarantee-body h2 {
+  .guarantee-body h2 {
     font-size: 20px;
   }
   .big {
